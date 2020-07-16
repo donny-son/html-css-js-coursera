@@ -1,14 +1,14 @@
-.navbar-default {
+#header-nav, .navbar-default {
     background: blanchedalmond;
-}
-
-.navbar-collapse {
-    background: azure;
 }
 
 #nav-list {
     text-align: center;
     text-transform: uppercase;
+}
+
+.navbar-collapse.collapse.show, .navbar-collapse.collapsing {
+    background-color: yellow;
 }
 
 hr {
